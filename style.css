@@ -1,0 +1,48 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(57, 57, 240) 50%, rgb(0, 0, 0) 50%);
+}
+
+
+
+.container input {
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+ margin: 0 auto;
+  
+}
+
+.poke {
+    background-color: white;
+    height: 25vw;
+    width: 50vw;
+    border-radius: 15px ;
+    margin-top: 2rem;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    margin-right: 40px;
+    border: none;
+    background: white;
+    font-size: 30px;
+    border-radius: 10px;
+   
+}
